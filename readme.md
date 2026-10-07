@@ -15,7 +15,7 @@ Designed for long coding sessions to reduce eye strain while maintaining structu
 
 1. Open **Visual Studio Code**.
 2. Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
-3. Search for **Custom Sublime Monokai Panels** (or your custom display name).
+3. Search for **Custom Sublime Panels** (or your custom display name).
 4. Click **Install**.
 5. Press `Ctrl+K` then `Ctrl+T` (or `Cmd+K` then `Cmd+T` on Mac) and select **Custom Sublime Monokai** from the menu.
 
