@@ -23,7 +23,7 @@ Designed for long coding sessions to reduce eye strain while maintaining structu
 
 1. Open **Visual Studio Code**.
 2. Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
-3. Search for **Custom Sublime Panels** (or your custom display name).
+3. Search for **Custom Sublime Monokai Panels** (or your custom display name).
 4. Click **Install**.
 5. Press `Ctrl+K` then `Ctrl+T` (or `Cmd+K` then `Cmd+T` on Mac) and select **Custom Sublime Monokai** from the menu.
 
@@ -50,6 +50,35 @@ For the absolute best visual experience, add the following snippet to your user 
 }
 ```
 
+## Development
+
+Install the VS Code Extension Manager CLI once:
+
+```sh
+npm install -g @vscode/vsce
+```
+
+Package or update the extension as a `.vsix` file:
+
+```sh
+vsce package
+```
+
+To test locally before publishing, copy the extension into your VS Code extensions folder, using the publisher, extension name, and version from `package.json` in the folder name:
+
+```text
+C:\Users\<Username>\.vscode\extensions\fadi-hajji1.custom-sublime-2.2.0
+```
+
+Restart VS Code to load the extension.
+
+To publish to the Visual Studio Code Marketplace, create a publisher in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage), then log in and publish:
+
+```sh
+vsce login fadi-hajji1
+vsce publish
+```
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./License.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
