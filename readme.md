@@ -14,10 +14,10 @@ Designed for long coding sessions to reduce eye strain while maintaining structu
 ## Screenshots
 
 ### DropDown menu View
-![Custom dropdown menu preview showing the editor with a deep charcoal background and neon blue accents](screenshots/dropdown.png)
+![Custom dropdown menu preview showing the editor with a deep charcoal background and neon blue accents](./screenshots/dropdown.png)
 
 ### Panels View
-![Custom black Panels theme preview showing the side panel and workspace layout with dark navy surfaces and high contrast UI](screenshots/black.png)
+![Custom black Panels theme preview showing the side panel and workspace layout with dark navy surfaces and high contrast UI](./screenshots/black.png)
 
 ## Installation
 
