@@ -1,11 +1,6 @@
 {
 	"type": "dark",
 	"colors": {
-		
-		"surface.border": "#00000000",
-        "modernPanel.border": "#00000000",
-		"sash.hoverBorder": "#00000000",
-
 		"dropdown.background": "#414339",
 		"list.activeSelectionBackground": "#75715E",
 		"quickInputList.focusBackground": "#414339",

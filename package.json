@@ -2,10 +2,10 @@
   "name": "custom-sublime",
   "displayName": "Custom Sublime Panels",
   "description": "Premium glowing syntax theme featuring custom deep charcoal and pitch black workspace variants.",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "repositoryURL": "https://github.com/fadihajji1/sublime-theme",
   "repository": "https://github.com/fadihajji1/sublime-theme",
-  "publisher": "fadi-hajji",
+  "publisher": "fadi-hajji1",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.80.0"
@@ -16,9 +16,19 @@
   "contributes": {
     "themes": [
       {
+        "label": "Custom Panels-borders - Deep Charcoal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/charcoal-panels-borders.json"
+      },
+      {
         "label": "Custom Panels - Deep Charcoal",
         "uiTheme": "vs-dark",
         "path": "./themes/charcoal-panels.json"
+      },
+      {
+        "label": "Custom Panels-borders - Pitch Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-panels-borders.json"
       },
       {
         "label": "Custom Panels - Pitch Black",
