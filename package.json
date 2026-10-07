@@ -1,0 +1,25 @@
+{
+  "name": "custom-sublime",
+  "displayName": "Custom Sublime Panels",
+  "description": "Sublime theme combined with custom panels.",
+  "version": "1.0.0",
+  "repositoryURL": "https://github.com/fadihajji1/sublime-theme",
+  "repository": "https://github.com/fadihajji1/sublime-theme",
+  "publisher": "fadi-hajji",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Custom Sublime Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/custom-sublime.json"
+      }
+    ]
+  }
+}
