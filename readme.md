@@ -11,6 +11,14 @@ Designed for long coding sessions to reduce eye strain while maintaining structu
 - **Vibrant Syntax Color Scheme:** High-contrast text colorization across JavaScript, Python, C#, C++, and HTML/CSS.
 - **Clean Readability:** Carefully calculated foreground balances to ensure your code stands out clearly without being overly blinding.
 
+## Screenshots
+
+### DropDown menu View
+![Custom dropdown menu preview showing the editor with a deep charcoal background and neon blue accents](screenshots/dropdown.png)
+
+### Panels View
+![Custom black Panels theme preview showing the side panel and workspace layout with dark navy surfaces and high contrast UI](screenshots/black.png)
+
 ## Installation
 
 1. Open **Visual Studio Code**.
@@ -28,6 +36,17 @@ For the absolute best visual experience, add the following snippet to your user 
   "editor.renderWhitespace": "selection",
   "editor.guides.indentation": true,
   "editor.guides.activeIndentation": true
+}
+```
+
+## new vscode border remover
+```json
+{
+ 
+		"surface.border": "#00000000",
+    "modernPanel.border": "#00000000",
+		"sash.hoverBorder": "#00000000",
+
 }
 ```
 
