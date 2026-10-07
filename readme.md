@@ -14,10 +14,10 @@ Designed for long coding sessions to reduce eye strain while maintaining structu
 ## Screenshots
 
 ### DropDown menu View
-![Custom dropdown menu preview showing the editor with a deep charcoal background and neon blue accents](./screenshots/dropdown.png)
+![Custom dropdown menu preview showing the editor with a deep charcoal background and neon blue accents](screenshots/dropdown.png)
 
 ### Panels View
-![Custom black Panels theme preview showing the side panel and workspace layout with dark navy surfaces and high contrast UI](./screenshots/black.png)
+![Custom black Panels theme preview showing the side panel and workspace layout with dark navy surfaces and high contrast UI](screenshots/black.png)
 
 ## Installation
 
@@ -48,6 +48,35 @@ For the absolute best visual experience, add the following snippet to your user 
 		"sash.hoverBorder": "#00000000",
 
 }
+```
+
+## Development
+
+Install the VS Code Extension Manager CLI once:
+
+```sh
+npm install -g @vscode/vsce
+```
+
+Package or update the extension as a `.vsix` file:
+
+```sh
+vsce package
+```
+
+To test locally before publishing, copy the extension into your VS Code extensions folder, using the publisher, extension name, and version from `package.json` in the folder name:
+
+```text
+C:\Users\<Username>\.vscode\extensions\fadi-hajji1.custom-sublime-2.2.0
+```
+
+Restart VS Code to load the extension.
+
+To publish to the Visual Studio Code Marketplace, create a publisher in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage), then log in and publish:
+
+```sh
+vsce login fadi-hajji1
+vsce publish
 ```
 
 ## License
